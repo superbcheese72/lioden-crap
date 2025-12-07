@@ -1,0 +1,281 @@
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/symbols/sym-6/sym597.cur), auto !important;} /* End http://www.cursors-4u.com */
+
+/*logo*/
+
+
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+content: url('');
+}
+
+
+/* font & body stuff */
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&w=1000&q=80");
+  color: #005c99;
+  font-family: "Mansalva", cursive;
+}
+
+h1 {
+	color: #2b2d2e;
+}
+/* linkies */
+
+a:link, a:visited {
+	color: #005c99;
+}
+
+a:hover {
+	color: #c286e3;
+}
+
+
+
+
+
+
+/*tables???*/
+
+.table .top, .table th {
+	background: #2b2d2e;
+}
+
+
+.table .top a:link, .table .top a:visited, .table th a:link, .table th a:visited {
+	color: #ffffff;
+}
+
+.table .top a:hover, .table th a:hover {
+	color: #c286e3;
+
+}
+
+
+
+
+
+/*lighter bloo*/
+
+.table .left {
+	background: #cbdde6;
+}
+
+
+
+
+.table .bottom {
+	color: #005c99;
+	background: #cbdde6;
+}
+
+
+/*view all section of freidns */
+
+.table .bottom a:link, .table .bottom a:visited {
+	color: #2b2d2e;
+}
+
+
+/*even lighter bloo ( for about table and dens)*/
+
+.inner-table .right {
+	background: #eef4f7;
+}
+
+.table .right_odd, .table .right {
+	background: #eef4f7;
+}
+
+/*fixing sparring table */
+
+
+
+table#sparring.table > tbody > tr > td {
+	background: #eef4f7;
+}
+
+table#sparring.table > tbody > tr > td.right_odd {
+	background: #cbdde6;
+}
+
+/*border fix*/
+
+.table {
+	border-color: white;
+}
+
+table.inner-table.auto .right {
+	background: white;
+}
+
+/* that tippy toppy header bit with welcome back */
+
+div.container.topbar {
+	background: #2b2d2e;
+	
+}
+
+.topbar a:link, .topbar a:visited {
+    color: #ffffff;
+    text-decoration: none;	
+}
+
+.topbar a:hover {
+	color: #c286e3;
+}
+
+/* navbar */
+.navbar {
+	background: #cbdde6;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	background: #73b3d9;
+}
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+	
+	color: #2b2d2e;
+}
+
+/*footer*/
+.footer a:link, .footer a:visited, .footer a:active {
+color: #fff;
+border-bottom: 1px solid #FFF;
+}
+
+
+/*info boxes of infos */
+
+div.box {
+	  width: 600px;
+	  border: 3px solid #2b2d2e;
+	  margin: 5px;
+	  background-color: #cbdde6;
+	  content: center;
+	  box-sizing: border-box;
+	  height: 650px;
+	  float: center;
+	  overflow: auto;
+}
+
+div.inner {
+	width: 450px;
+	height: 440px;
+	border: 1px solid white;
+	margin: 10px;
+	background-color: white;
+	text-align: center;
+	box-align: center;
+	box-sizing: border-box;
+	overflow: auto;
+
+}
+
+div.above {
+	width: 450px;
+	border: 1px solid white;
+	margin: 40px 10px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+}
+
+
+/* Dynasty Boxes */
+
+h3 {
+	color: #005c99;
+	font-size: 20px;
+}
+
+div .left {
+	background: #cbdde6;
+}
+
+
+/* Sidebox with chatter */
+.sidebar h3 {
+	color: #005c99;
+}
+
+
+
+
+/* buttons */
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+	
+  background: linear-gradient(to bottom, #dfedf4 5%,#cbdde6 5%,#9bbdce 49%,#5a95b3 95%,#61a8cc 95%);
+	color: #2b2d2e;
+	border-top-color:#2b2d2e;
+	border-left-color:#2b2d2e;
+	border-right-color:#2b2d2e;
+	border-bottom-color:#2b2d2e;
+	text-shadow: 1px 0px 1px white;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+  background: linear-gradient(to top, #fff 5%,#ecf9ff 34%,#b4d5e5 90%,#fff 99%);
+	color: #2b2d2e;
+	border-top-color:#2b2d2e;
+	border-left-color:#2b2d2e;
+	border-right-color:#2b2d2e;
+	border-bottom-color:#2b2d2e;
+	text-shadow: 1px 0px 1px white;
+}
+
+
+
+/* event crap */
+div.feature.auto.center {
+	background-color: #cbdde6;
+	border-color: #2b2d2e;
+}
+
+
+/*chatboxes (den box and side box) */
+
+/*changing alternating chat colours slightly*/
+
+/*have colours be the same lightish one*/
+.s-chat-message:nth-child(2n) {
+	background:#e2e4ea;
+
+}
+
+div.comment:nth-child(2n) {
+ background-color:#e9edf7;
+}
+
+.s-chat-message_timestamp {
+color: #788fba;
+}
+
+.text-muted {
+  color: #788fba;
+}
+
+#chatMessagePinned.s-chat-message__pinned {
+background-color: #cbdde6;
+}
+
+
+
+/*pagedoll testing*/
+.container.main::after {
+content: url(); /*insert crap here. no quotation marks*/
+transform: scale(.5);
+display: inline-block;
+position: fixed;
+align-content: center;
+bottom: -1px;
+right: 220px;
+ 
+
+/* fuck with these settings until satisfied with layout*/
+}
