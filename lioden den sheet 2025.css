@@ -282,7 +282,12 @@ display: block;
 position: fixed;
 bottom: -1px;
 right: -20px;
- 
-
 /* fuck with these settings until satisfied with layout*/
 }
+
+/*king headshot image*/
+.lion-image-block {
+	border-radius: 40px;
+}
+
+
