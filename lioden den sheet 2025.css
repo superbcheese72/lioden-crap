@@ -1,4 +1,4 @@
-/* All code, until dynasty boxes was made by teenage me. 
+/* Except where otherwise stated, all code, until dynasty boxes was made by teenage me. 
 
 Post dynasty, present me has fixed up the rest of the den page. Hoverless button gradient follows the site's to be consistent with the vanilla look (but now blue).
 
@@ -9,7 +9,7 @@ Post dynasty, present me has fixed up the rest of the den page. Hoverless button
 
 /* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/symbols/sym-6/sym597.cur), auto !important;} /* End http://www.cursors-4u.com */
 
-/*logo*/
+/*logo override*/
 
 
 div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
@@ -274,15 +274,14 @@ background-color: #cbdde6;
 
 
 
-/*pagedoll testing*/
+/*pagedoll*/
 .container.main::after {
-content: url(); /*insert crap here. no quotation marks*/
-transform: scale(.5);
-display: inline-block;
+content: url('https://i.postimg.cc/zDRL3Zk8/lioden-demiurge-pagedoll.png'); /*insert crap here*/
+transform: scale(1);
+display: block;
 position: fixed;
-align-content: center;
 bottom: -1px;
-right: 220px;
+right: -20px;
  
 
 /* fuck with these settings until satisfied with layout*/
