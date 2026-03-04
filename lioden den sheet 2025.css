@@ -238,6 +238,27 @@ input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hove
 	text-shadow: 1px 0px 1px white;
 }
 
+/*bug report button*/
+
+#pageSidebar > p > a {
+	background: linear-gradient(to bottom, #dfedf4 5%,#cbdde6 5%,#9bbdce 49%,#5a95b3 95%,#61a8cc 95%);
+	color: #2b2d2e;
+	border-top-color:#2b2d2e;
+	border-left-color:#2b2d2e;
+	border-right-color:#2b2d2e;
+	border-bottom-color:#2b2d2e;
+	text-shadow: 1px 0px 1px white;
+}
+#pageSidebar > p > a:hover {
+    background: linear-gradient(to top, #fff 5%,#ecf9ff 34%,#b4d5e5 90%,#fff 99%);
+	color: #2b2d2e;
+	border-top-color:#2b2d2e;
+	border-left-color:#2b2d2e;
+	border-right-color:#2b2d2e;
+	border-bottom-color:#2b2d2e;
+	text-shadow: 1px 0px 1px white;
+}
+
 
 
 /* event crap */
